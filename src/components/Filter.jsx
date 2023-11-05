@@ -36,27 +36,27 @@ function Filter({ emails, mainDisplayOn, toggleMenu,display }) {
 
         return (
             <>
-                <section className="filter--container filter--main">
-                    <div className="filter--btn read filter--text"
+                <section className="filter--main">
+                    <p className="filter--text"
                         onClick={() => handleFilterMenuClick("all")}
                     >
                         All
-                    </div>
+                    </p>
                     
-                    <div className="filter--btn read filter--text"
+                    <p className="filter--text"
                         onClick={() => handleFilterMenuClick("read")}
                     >
                         Read
-                    </div>
-                    <div className="filter--btn unread filter--text"
+                    </p>
+                    <p className="filter--text"
                         onClick={() => handleFilterMenuClick("unread")}
                     >
                         Unread
-                    </div>
-                    <div className="filter--btn fav filter--text"
+                    </p>
+                    <p className="filter--text"
                         onClick={() => handleFilterMenuClick("fav")} >
                         Favorite
-                    </div>
+                    </p>
                 </section>
 
                 <section className={display ? "email--main--shrink" : "email--main"}>

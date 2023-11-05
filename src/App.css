@@ -83,6 +83,7 @@ body{
 .filter--text{
   font-size: .8em;
   padding: 1rem;
+  font-weight: 600 ;
 }
 
 .email--main{

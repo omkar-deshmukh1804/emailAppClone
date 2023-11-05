@@ -57,6 +57,7 @@ function EmailApp() {
 
     return (
         <>
+        <section className='main'> 
             <Filter
                 emails={emails}
                 mainDisplayOn={mainDisplayOn}
@@ -74,7 +75,7 @@ function EmailApp() {
             }
             
             
-
+        </section>
         </>
     )
 }
